@@ -1,0 +1,497 @@
+/* all web */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    transition: 0.5s;
+}
+/* all web end */
+
+/* welcome */
+.welcome{
+    height: 100vh;
+    width: 100%;
+    background-image: url(R.gif);
+    background-position: center;
+    background-size: cover;
+}
+/* nav */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+header img{
+    width: 100px;
+    margin-right: 20px;
+}
+header ul{
+    display: flex;
+    margin-top: 20px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    justify-content: space-between;    
+    color: #47a6de;  
+    font-weight: bold;
+    font-size: 17px;  
+    transition: 1s;
+}
+header ul li a:hover{
+    background-color: #47a6de;
+    border: 1px solid #47a6de;
+    border-radius: 20px;
+    color: #f7ba0a;
+}
+/*nav end*/
+
+/* info */
+.welcome i{
+ display:none ;
+}
+.welcoming{
+    text-align: center;
+    margin-top: 10%;
+}
+.welcoming h5{
+    color: #47a6de;
+    font-size: 20px;
+    margin: 10px;
+}
+.welcoming h3{
+    color: #f7ba0a;
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 10px;
+
+}
+.welcoming p{
+    color: rgb(190, 190, 190);
+    margin: 15px;
+    margin-bottom:40px ;
+    font-size: 20px;
+}
+.welcoming span{
+    color: #47a6de;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.welcoming a{
+    color: #47a6de;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    border: 2px solid #47a6de;
+    padding: 10px;
+    border-radius: 20px;
+
+    transition: 0.5s;
+}
+.welcoming a:hover{
+    color: #f7ba0a;
+    background-color: #47a6de;
+    font-size: 20px;
+    transition: 0.5s;
+}
+/* info end */
+
+/* about us */
+.about{
+    background-image: url(bffede1d81ebe6ddb2eb3033dc86ac68.gif);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+    padding-top: 100px;
+}
+.about .our{
+    display: flex;
+    color: white;
+    background-color: #0e0e0e;
+    margin: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+    border: 2px ;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(46, 46, 46);
+}
+.about .our img{
+    height: 500px;
+    border: 2px ;
+    border-radius: 20px;
+}
+.about .our .info{
+  margin-top: 70px;
+  margin-right: 20px;
+  margin-left: 20px;  
+}
+.about .our .info h3{
+
+    margin-bottom: 20px;
+    color: #f7ba0a;
+    font-size: 30px;
+}
+.about .our .info span{
+    color: #47a6de;
+
+    font-weight: bolder;
+}
+.about .our .info p{
+    font-size: 17px;
+}
+/* about us end */
+
+/*serv*/
+.serv{
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+.server{
+    display: flex;
+}
+.serv h3{
+    text-align: center;
+    margin-bottom: 80px;
+    color: #f7ba0a;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.serv .ser{
+    color: aliceblue;
+    background-color: #0e0e0e;
+    text-align: center;
+    padding:22px ;
+    margin: 20px;
+    margin-bottom: 50px;
+    border: 2px;
+    border-radius: 20px;
+    transition: 0.5;
+}
+.serv .ser h4{
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #47a6de;
+}
+.serv .ser:hover{
+    box-shadow: 5px 5px  #f7ba0a;
+    transition: 0.5s;
+}
+.serv a{
+    color: #47a6de;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+    border: 2px solid #47a6de;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.serv a:hover{
+    color: #f7ba0a;
+    background-color: #47a6de;
+    font-size: 20px;
+    transition: 0.5s;
+}
+/*serv end*/
+
+/* nomber */
+.num{
+    text-align: center;
+    height: 75vh;
+    padding-top: 140px;
+    background-image: url(Download\ Description\ wallpaper\ Outer\ Space\ Wallpapers\ Full\ HD.jpg);
+}
+.num .back{
+    background-color: #0e0e0e;
+    color: aliceblue;
+    margin-top: 80px;
+    padding: 20px ;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(46, 46, 46);
+    text-align: center;
+}
+.num .back .felx{
+    display: inline-flex;
+}
+.num .back .numb .numbr{
+    margin: 30px;
+}
+.num .back h3{
+    color: #f7ba0a;
+
+    font-size: 30px;
+}
+.num .back h4{
+    font-size: 20px;
+
+}
+.num .back p{
+    color: #47a6de;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* nomber end */
+
+/* footer */
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    height: 17vh;
+}
+footer a i{
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom:-10px;
+    transition: 0.5s;
+}
+footer a{
+    color: rgb(145, 145, 145);
+}
+footer a i:hover{
+    color: #f7ba0a;
+    border: 2 solid #47a6de;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+footer .space{
+    color: #47a6de;
+    font-weight: bolder;
+}
+footer .dev{
+    color: rgb(145, 145, 145);
+    margin:20px ;
+    word-spacing: 2px;
+}
+footer .dev span{
+    color: #f7ba0a;
+    font-size: 17px;
+}
+.foo{
+    margin-top: 600px;
+}
+/* footer end */
+
+/* sooner */
+    .sooner{
+        background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+        height: 100vh;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .sooner a{
+        color: #47a6de;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bolder;
+        border: 2px solid #47a6de;
+        padding: 10px;
+        border-radius: 20px;
+        transition: 0.5s;
+        margin-top: 30px;
+    }
+    .sooner a:hover{
+        color: #f7ba0a;
+        background-color: #47a6de;
+        font-size: 20px;
+        transition: 0.5s;
+    }
+    .sooner .back{
+        margin-bottom: 300px;
+        text-align: center;
+    }
+    .sooner h1{
+        text-align: center;
+        font-size: 100px;
+        color: #f7ba0a;
+    }
+/* sooner end */
+
+/* comment */
+    .comments{
+        height: 50vh;
+        width: 100%;
+        text-align: center;
+        padding-top: 80px;
+        background-image: url(wallpaperflare.com_wallpaper\ \(1\).jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .comments form{
+        background-color: #0e0e0e;
+        padding: 20px;
+        border: 2px ;
+        border-radius: 20px;
+        margin-right: 400px;
+        margin-left: 400px;
+        box-shadow: 10px 10px rgb(46, 46, 46);
+        text-align: center;
+    }
+    .comments form h3{
+        color: #f7ba0a;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .comments form h4{
+        color: #47a6de;
+        font-size: 20px;
+        text-align: right;
+        font-weight: bolder;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .comments form .text{
+        margin-bottom: 20px;
+        border: 2px solid #f7ba0a;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 250px;
+        transition: 0.5s;
+    }
+    .comments form .text:hover{
+        box-shadow: 5px 5px #f7ba0a;
+        transition: 0.5s;
+    }
+    .comments form #submit{
+        color: #47a6de;
+        text-decoration: none;
+        background: none;
+        font-size: 17px;
+        font-weight: bolder;
+        border: 2px solid #47a6de;
+        padding: 10px;
+        border-radius: 20px;
+        transition: 0.5s;
+        margin-top: 30px;
+    }
+    .comments form #submit:hover{
+        color: #f7ba0a;
+        background-color: #47a6de;
+        font-size: 20px;
+        transition: 0.5s;
+    }
+
+/* media */
+@media screen and (max-width: 1000px){
+    /* welcoming */
+    .welcome i{
+        display: block;
+        color: #47a6de;
+        font-size: 22px;
+        margin: 15px;
+        cursor: pointer;
+        font-weight: bolder;
+    }
+    .navlinks ul{
+        display: block;
+    }
+    .navlinks{
+        position: absolute;
+        background-color: #000000;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        left: -200px;
+        text-align: right;
+        z-index: 2;
+        transition: 1s;
+    }
+    .navlinks ul li {
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .navlinks ul li a{
+        padding-top: 5px;
+        display: flex;
+    }
+    .books i{
+        display: block;
+        color: #47a6de;
+        font-size: 22px;
+        margin: 15px;
+        cursor: pointer;
+        font-weight: bolder;
+    }
+    .welcome .welcoming h3{
+        font-size: 50px;
+    }
+    .welcome header img{
+        width: 70px;
+        margin-right: -15px;
+        margin-top: -10px;
+    }
+    /* welcoming end */
+
+    /* about us */
+    .about{
+        height: 120vh;
+    }
+    .about .our{
+        flex-direction: column;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-bottom: 50px;
+    }
+    .about .our img{
+        height: 250px;
+        width: 310px;
+        margin-bottom: -50px;
+        
+    }
+    /* about us end */
+
+    /* server */
+    .serv{
+        height: 150vh;
+    }
+    .serv .server{
+        flex-direction: column;
+    }
+    /* server end */
+
+    /* number */
+    .num{
+        height: 100vh;
+    }
+    .num .back{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    /* number end */
+
+    /* comments */
+    .comments{
+        height: 70vh;
+    }
+    .comments form{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .comments form .text{
+        padding-left: 80px;
+    }
+    /* comments end */
+
+    /* footer */
+    footer{
+        height: 30vh;
+    }
+    /* foooter end */
+}
+/* media end */
